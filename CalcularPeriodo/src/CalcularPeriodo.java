@@ -10,10 +10,12 @@ public class CalcularPeriodo {
 		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);
 		LocalDate dat = LocalDate.of(1990, Month.JANUARY, 1);
 		LocalDate loc = LocalDate.of(2000, Month.DECEMBER, 25);
+		LocalDate loco = LocalDate.of(2000, Month.DECEMBER, 24);
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de America", fecha);
 		calcularPeriodo("El ano nuevo de 1990", dat);
 		calcularPeriodo("La navidad del 2000", loc);
+		calcularPeriodo("Antes de navidad del 2000", loco);
 		
 	}
 	
